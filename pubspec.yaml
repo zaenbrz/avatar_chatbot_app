@@ -55,7 +55,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/models/68c2c316912b35fdec9c8a53.glb
+    - assets/models/
+    - assets/animations/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

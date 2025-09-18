@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'avatar_screen.dart';
+import 'avatar_o3d.dart';
 
 void main() {
   runApp(const MyApp());

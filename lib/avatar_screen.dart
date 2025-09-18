@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:model_viewer_plus/model_viewer_plus.dart';
 
 class AvatarScreen extends StatelessWidget {
   const AvatarScreen({super.key});
@@ -9,14 +8,40 @@ class AvatarScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text("My Avatar")),
       body: Center(
-        child: ModelViewer(
-          src: 'assets/models/avatar.glb',
-          alt: "A 3D avatar",
-          autoRotate: true,
-          cameraControls: true,
-          backgroundColor: Colors.white,
-          animationName: 'hello',
-          autoPlay: true,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.person,
+              size: 100,
+              color: Colors.blue,
+            ),
+            SizedBox(height: 20),
+            Text(
+              "Avatar Chatbot App",
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 10),
+            Text(
+              "3D Avatar will be loaded here",
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.grey[600],
+              ),
+            ),
+            SizedBox(height: 30),
+            ElevatedButton(
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text("Avatar feature coming soon!")),
+                );
+              },
+              child: Text("Start Chat"),
+            ),
+          ],
         ),
       ),
     );
