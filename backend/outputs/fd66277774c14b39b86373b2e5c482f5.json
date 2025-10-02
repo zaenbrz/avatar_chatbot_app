@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "soundFile": "D:\\University\\FYP-2\\Avatar-Flutter\\backend\\uploads\\c90675d667614ef8b0b2bcd4427cdb65_converted.wav",
+    "duration": 2.44
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.26, "value": "X" },
+    { "start": 0.26, "end": 0.41, "value": "G" },
+    { "start": 0.41, "end": 0.48, "value": "C" },
+    { "start": 0.48, "end": 0.62, "value": "B" },
+    { "start": 0.62, "end": 0.70, "value": "A" },
+    { "start": 0.70, "end": 0.78, "value": "C" },
+    { "start": 0.78, "end": 0.85, "value": "B" },
+    { "start": 0.85, "end": 0.99, "value": "C" },
+    { "start": 0.99, "end": 1.06, "value": "B" },
+    { "start": 1.06, "end": 1.14, "value": "A" },
+    { "start": 1.14, "end": 1.37, "value": "B" },
+    { "start": 1.37, "end": 1.44, "value": "C" },
+    { "start": 1.44, "end": 1.51, "value": "B" },
+    { "start": 1.51, "end": 1.65, "value": "C" },
+    { "start": 1.65, "end": 1.72, "value": "E" },
+    { "start": 1.72, "end": 1.86, "value": "B" },
+    { "start": 1.86, "end": 2.44, "value": "X" }
+  ]
+}
